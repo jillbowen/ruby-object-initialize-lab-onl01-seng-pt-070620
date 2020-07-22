@@ -13,9 +13,6 @@ class Dog
   end
   
   def breed=(breed)
-    if @breed == nil 
-      @breed << "Mutt"
-    else
       @breed
     end
   end
