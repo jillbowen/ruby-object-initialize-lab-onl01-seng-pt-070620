@@ -3,5 +3,7 @@ class Person
     @breed = breed
   end
   
-  def breed
+  def breed = (breed)
+    @breed = breed
+  end
 end
